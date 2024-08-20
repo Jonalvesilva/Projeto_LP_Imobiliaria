@@ -35,3 +35,11 @@ export const imoveis = [
       "Sobrado com 2 quartos, 2 banheiros, sala de jantar e área de serviço. Localizado em bairro tranquilo, com acesso fácil a escolas e parques.",
   },
 ];
+
+export const swiperImages = [
+  "/swiper/1.jpg",
+  "/swiper/2.jpg",
+  "/swiper/3.jpg",
+  "/swiper/4.jpg",
+  "/swiper/5.jpg",
+];

@@ -7,6 +7,16 @@ body {
   min-width: 320px;
 }
 
+.swiper-button-next,
+.swiper-button-prev {
+  color: white !important;
+  text-shadow: 1px 1px 3px black !important;
+}
+
+.swiper-scrollbar-drag {
+  background-color: white !important;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
