@@ -20,6 +20,8 @@ import {
   CarouselItem,
 } from "@/app/components/ui/carousel";
 import { imoveis, swiperImages } from "./constants/constants";
+import Team from "./components/Team";
+import News from "./components/News";
 
 export default function Home() {
   return (
@@ -209,6 +211,13 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <Team />
+      <FixedBannerResponsivo
+        url="/banner2.jpg"
+        height={700}
+        backdrop={{ active: true, percent: 65, hexcolor: "#000000" }}
+        children={<News />}
+      />
     </>
   );
 }

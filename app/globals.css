@@ -7,6 +7,10 @@ body {
   min-width: 320px;
 }
 
+.text-shadow-black {
+  text-shadow: 1px 1px 3px black;
+}
+
 .swiper-button-next,
 .swiper-button-prev {
   color: white !important;
