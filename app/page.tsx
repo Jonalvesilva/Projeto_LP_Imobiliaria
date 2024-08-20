@@ -31,12 +31,12 @@ export default function Home() {
           url="/banner.jpg"
           height={750}
           backdrop={{ active: true, percent: 5, hexcolor: "#000000" }}
-          children={
-            <div className="hidden lg:flex relative w-fit top-16 left-16">
-              <SearchForm />
-            </div>
-          }
-        />
+        >
+          {" "}
+          <div className="hidden lg:flex relative w-fit top-16 left-16">
+            <SearchForm />
+          </div>
+        </FixedBannerResponsivo>
       </div>
       <section className="w-full py-8 lg:hidden flex justify-center">
         <SearchForm />
@@ -216,8 +216,9 @@ export default function Home() {
         url="/banner2.jpg"
         height={700}
         backdrop={{ active: true, percent: 65, hexcolor: "#000000" }}
-        children={<News />}
-      />
+      >
+        <News />
+      </FixedBannerResponsivo>
     </>
   );
 }
